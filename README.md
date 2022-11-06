@@ -141,3 +141,47 @@ Repare esse trecho de código do nosso template do componente Temporizador:
 
 
 # #3 __Trabalhando com Listas__
+
+
+- __#Renderizar listas com o v-for;__
+
+    - Utilizamos um mecanismo de repetição para renderizar N vezes uma tarefa, onde N é o tamanho da lista. Isso faz com que nossa lista seja dinâmica.
+
+- __#Condicionais com v-if / v-else;__
+
+    - Aprendemos como esconder ou exibir um componente, dado um estado específico utilizando a diretiva v-if.
+
+- __#Fallback de conteúdo com o operador || (OU);__
+
+    - Utilizamos o operador OU para exibir um texto padrão, caso a tarefa não possua uma descrição.
+
+- __#Slots.__
+
+    - Aprendemos a lidar com o slot quando criamos um componente para representar o Box. Assim, conseguimos exibir os elementos filhos dentro do nosso Box.
+
+
+
+# #3 __Estilos Estilosos__
+
+- Variáveis css
+
+Ex.
+
+```css
+
+main{
+  --bg-primario: #ffffff;
+  --texto-primario: #000;
+}
+
+main.modo-escuro{
+  --bg-primario: #2b2d42;
+  --texto-primario: #ddd;
+}
+
+.conteudo{
+  background-color: var(--bg-primario);
+  
+}
+
+```
