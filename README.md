@@ -185,3 +185,17 @@ main.modo-escuro{
 }
 
 ```
+
+
+- __Uso de variáveis CSS para temas (claro/escuro);__
+
+    - Utilizando essas variáveis, nós podemos facilmente controlar o tema do nosso Alura Tracker, alterando a cor de fundo e a cor do texto de acordo com o tema aplicado.
+
+- __Adicionar e remover classes baseado num estado do componente;__
+
+    - Aprendemos a adicionar ou remover classes, condicionalmente utilizando a diretiva :class.
+
+
+- __Estilos via objetos.__
+
+    - Aprendemos uma nova forma de aplicar estilos a um elemento, utilizando um objeto que representa as propriedades e seus valores.
