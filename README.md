@@ -199,3 +199,57 @@ main.modo-escuro{
 - __Estilos via objetos.__
 
     - Aprendemos uma nova forma de aplicar estilos a um elemento, utilizando um objeto que representa as propriedades e seus valores.
+
+
+
+## Compilando a Aplicação 
+
+Agora que a aplicação já se encontra pronta e funcionando, podemos faze rum build e testar como um 
+servidor http local, e posteriormente, publicalá para o mundo !
+
+1) Build do app
+
+```shell
+$ npm run build 
+```
+Este comando era criar uma basta ./dist. Este pasta contém toda a aplicação funcionando, como so arquivos css, html, js etc. Além disso, estão minificados para melhorar o desempenho quando subirmos pra produção.
+
+
+2) Testar servidor http localmente
+
+```shell
+$ npm i -g http-server
+```
+```shell
+$ http-server
+
+Starting up http-server, serving ./
+
+http-server version: 14.1.1    
+
+http-server settings: 
+CORS: disabled
+Cache: 3600 seconds
+Connection Timeout: 120 seconds
+Directory Listings: visible    
+AutoIndex: visible
+Serve GZIP Files: false        
+Serve Brotli Files: false
+Default File Extension: none
+
+Available on:
+  http://192.168.56.1:8080
+  http://192.168.15.29:8080
+  http://127.0.0.1:8080
+Hit CTRL-C to stop the server
+
+```
+
+> Aplicação disponível em:
+
+>__http://192.168.15.29:8080__
+
+>__http://127.0.0.1:8080__
+
+
+3) Publicar o app 
