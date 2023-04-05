@@ -238,18 +238,18 @@ Serve Brotli Files: false
 Default File Extension: none
 
 Available on:
-  http://192.168.56.1:8080
-  http://192.168.15.29:8080
-  http://127.0.0.1:8080
+  http://***.***.**.**:8080
+  http://***.***.**.**:8080
+  http://***.***.**.**:8080
 Hit CTRL-C to stop the server
 
 ```
 
 > Aplicação disponível em:
 
->__http://192.168.15.29:8080__
+>__http://***.***.**.**:8080__
 
->__http://127.0.0.1:8080__
+>__http://***.***.**.**:8080__
 
 
 3) Publicar o app 
